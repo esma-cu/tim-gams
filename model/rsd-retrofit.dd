@@ -1,0 +1,250 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'NO_MITIGATION'
+$SET SCENARIO_NAME 'rsd-retrofit'
+
+
+SET UNITS_CAP
+
+/
+'000UNITS'
+/;
+
+SET UNITS_ACT
+
+/
+'PJ'
+/;
+
+SET PRC
+
+/
+'R-RTFT-Apt_B3'
+'R-RTFT-Apt_C'
+'R-RTFT-Apt_D'
+'R-RTFT-Apt_E'
+'R-RTFT-Apt_F'
+'R-RTFT-Apt_G'
+'R-RTFT-Att_B3'
+'R-RTFT-Att_C'
+'R-RTFT-Att_D'
+'R-RTFT-Att_E'
+'R-RTFT-Att_F'
+'R-RTFT-Att_G'
+'R-RTFT-Det_B3'
+'R-RTFT-Det_C'
+'R-RTFT-Det_D'
+'R-RTFT-Det_E'
+'R-RTFT-Det_F'
+'R-RTFT-Det_G'
+/;
+
+SET PRC_MAP
+
+/
+'IE'.'PRE'.'R-RTFT-Apt_B3'
+'IE'.'PRE'.'R-RTFT-Apt_C'
+'IE'.'PRE'.'R-RTFT-Apt_D'
+'IE'.'PRE'.'R-RTFT-Apt_E'
+'IE'.'PRE'.'R-RTFT-Apt_F'
+'IE'.'PRE'.'R-RTFT-Apt_G'
+'IE'.'PRE'.'R-RTFT-Att_B3'
+'IE'.'PRE'.'R-RTFT-Att_C'
+'IE'.'PRE'.'R-RTFT-Att_D'
+'IE'.'PRE'.'R-RTFT-Att_E'
+'IE'.'PRE'.'R-RTFT-Att_F'
+'IE'.'PRE'.'R-RTFT-Att_G'
+'IE'.'PRE'.'R-RTFT-Det_B3'
+'IE'.'PRE'.'R-RTFT-Det_C'
+'IE'.'PRE'.'R-RTFT-Det_D'
+'IE'.'PRE'.'R-RTFT-Det_E'
+'IE'.'PRE'.'R-RTFT-Det_F'
+'IE'.'PRE'.'R-RTFT-Det_G'
+/;
+
+SET PRC_TSL
+
+/
+'IE'.'R-RTFT-Apt_B3'.DAYNITE
+'IE'.'R-RTFT-Apt_C'.DAYNITE
+'IE'.'R-RTFT-Apt_D'.DAYNITE
+'IE'.'R-RTFT-Apt_E'.DAYNITE
+'IE'.'R-RTFT-Apt_F'.DAYNITE
+'IE'.'R-RTFT-Apt_G'.DAYNITE
+'IE'.'R-RTFT-Att_B3'.DAYNITE
+'IE'.'R-RTFT-Att_C'.DAYNITE
+'IE'.'R-RTFT-Att_D'.DAYNITE
+'IE'.'R-RTFT-Att_E'.DAYNITE
+'IE'.'R-RTFT-Att_F'.DAYNITE
+'IE'.'R-RTFT-Att_G'.DAYNITE
+'IE'.'R-RTFT-Det_B3'.DAYNITE
+'IE'.'R-RTFT-Det_C'.DAYNITE
+'IE'.'R-RTFT-Det_D'.DAYNITE
+'IE'.'R-RTFT-Det_E'.DAYNITE
+'IE'.'R-RTFT-Det_F'.DAYNITE
+'IE'.'R-RTFT-Det_G'.DAYNITE
+/;
+
+SET PRC_ACTUNT
+
+/
+'IE'.'R-RTFT-Apt_B3'.'RSDSH_Apt-AB'.'PJ'
+'IE'.'R-RTFT-Apt_C'.'RSDSH_Apt-C'.'PJ'
+'IE'.'R-RTFT-Apt_D'.'RSDSH_Apt-D'.'PJ'
+'IE'.'R-RTFT-Apt_E'.'RSDSH_Apt-E'.'PJ'
+'IE'.'R-RTFT-Apt_F'.'RSDSH_Apt-F'.'PJ'
+'IE'.'R-RTFT-Apt_G'.'RSDSH_Apt-G'.'PJ'
+'IE'.'R-RTFT-Att_B3'.'RSDSH_Att-AB'.'PJ'
+'IE'.'R-RTFT-Att_C'.'RSDSH_Att-C'.'PJ'
+'IE'.'R-RTFT-Att_D'.'RSDSH_Att-D'.'PJ'
+'IE'.'R-RTFT-Att_E'.'RSDSH_Att-E'.'PJ'
+'IE'.'R-RTFT-Att_F'.'RSDSH_Att-F'.'PJ'
+'IE'.'R-RTFT-Att_G'.'RSDSH_Att-G'.'PJ'
+'IE'.'R-RTFT-Det_B3'.'RSDSH_Det-AB'.'PJ'
+'IE'.'R-RTFT-Det_C'.'RSDSH_Det-C'.'PJ'
+'IE'.'R-RTFT-Det_D'.'RSDSH_Det-D'.'PJ'
+'IE'.'R-RTFT-Det_E'.'RSDSH_Det-E'.'PJ'
+'IE'.'R-RTFT-Det_F'.'RSDSH_Det-F'.'PJ'
+'IE'.'R-RTFT-Det_G'.'RSDSH_Det-G'.'PJ'
+/;
+
+SET TOP
+
+/
+'IE'.'R-RTFT-Apt_B3'.'RSDSH_Apt-AB'.OUT
+'IE'.'R-RTFT-Apt_C'.'RSDSH_Apt-C'.OUT
+'IE'.'R-RTFT-Apt_D'.'RSDSH_Apt-D'.OUT
+'IE'.'R-RTFT-Apt_E'.'RSDSH_Apt-E'.OUT
+'IE'.'R-RTFT-Apt_F'.'RSDSH_Apt-F'.OUT
+'IE'.'R-RTFT-Apt_G'.'RSDSH_Apt-G'.OUT
+'IE'.'R-RTFT-Att_B3'.'RSDSH_Att-AB'.OUT
+'IE'.'R-RTFT-Att_C'.'RSDSH_Att-C'.OUT
+'IE'.'R-RTFT-Att_D'.'RSDSH_Att-D'.OUT
+'IE'.'R-RTFT-Att_E'.'RSDSH_Att-E'.OUT
+'IE'.'R-RTFT-Att_F'.'RSDSH_Att-F'.OUT
+'IE'.'R-RTFT-Att_G'.'RSDSH_Att-G'.OUT
+'IE'.'R-RTFT-Det_B3'.'RSDSH_Det-AB'.OUT
+'IE'.'R-RTFT-Det_C'.'RSDSH_Det-C'.OUT
+'IE'.'R-RTFT-Det_D'.'RSDSH_Det-D'.OUT
+'IE'.'R-RTFT-Det_E'.'RSDSH_Det-E'.OUT
+'IE'.'R-RTFT-Det_F'.'RSDSH_Det-F'.OUT
+'IE'.'R-RTFT-Det_G'.'RSDSH_Det-G'.OUT
+/;
+
+SET PRC_DESC
+
+/
+'IE'.'R-RTFT-Apt_B3' 'Residential Apt_B3 - Shallow retrofit'
+'IE'.'R-RTFT-Apt_C' 'Residential Apt_C - Shallow retrofit'
+'IE'.'R-RTFT-Apt_D' 'Residential Apt_D - Shallow retrofit'
+'IE'.'R-RTFT-Apt_E' 'Residential Apt_E - Deep retrofit'
+'IE'.'R-RTFT-Apt_F' 'Residential Apt_F - Deep retrofit'
+'IE'.'R-RTFT-Apt_G' 'Residential Apt_G - Deep retrofit'
+'IE'.'R-RTFT-Att_B3' 'Residential Att_B3 - Shallow retrofit'
+'IE'.'R-RTFT-Att_C' 'Residential Att_C - Shallow retrofit'
+'IE'.'R-RTFT-Att_D' 'Residential Att_D - Shallow retrofit'
+'IE'.'R-RTFT-Att_E' 'Residential Att_E - Deep retrofit'
+'IE'.'R-RTFT-Att_F' 'Residential Att_F - Deep retrofit'
+'IE'.'R-RTFT-Att_G' 'Residential Att_G - Deep retrofit'
+'IE'.'R-RTFT-Det_B3' 'Residential Det_B3 - Shallow retrofit'
+'IE'.'R-RTFT-Det_C' 'Residential Det_C - Shallow retrofit'
+'IE'.'R-RTFT-Det_D' 'Residential Det_D - Shallow retrofit'
+'IE'.'R-RTFT-Det_E' 'Residential Det_E - Deep retrofit'
+'IE'.'R-RTFT-Det_F' 'Residential Det_F - Deep retrofit'
+'IE'.'R-RTFT-Det_G' 'Residential Det_G - Deep retrofit'
+/;
+
+PARAMETER
+
+NCAP_COST ' '/
+'IE'.2018.'R-RTFT-Apt_B3'.'MEUR2018' 11.5335
+'IE'.2018.'R-RTFT-Apt_C'.'MEUR2018' 11.5335
+'IE'.2018.'R-RTFT-Apt_D'.'MEUR2018' 11.5335
+'IE'.2018.'R-RTFT-Apt_E'.'MEUR2018' 18.2736
+'IE'.2018.'R-RTFT-Apt_F'.'MEUR2018' 19.9584
+'IE'.2018.'R-RTFT-Apt_G'.'MEUR2018' 19.9584
+'IE'.2018.'R-RTFT-Att_B3'.'MEUR2018' 9.0075
+'IE'.2018.'R-RTFT-Att_C'.'MEUR2018' 9.0075
+'IE'.2018.'R-RTFT-Att_D'.'MEUR2018' 12.815
+'IE'.2018.'R-RTFT-Att_E'.'MEUR2018' 20.304
+'IE'.2018.'R-RTFT-Att_F'.'MEUR2018' 22.176
+'IE'.2018.'R-RTFT-Att_G'.'MEUR2018' 22.176
+'IE'.2018.'R-RTFT-Det_B3'.'MEUR2018' 14.0965
+'IE'.2018.'R-RTFT-Det_C'.'MEUR2018' 14.0965
+'IE'.2018.'R-RTFT-Det_D'.'MEUR2018' 14.0965
+'IE'.2018.'R-RTFT-Det_E'.'MEUR2018' 22.3344
+'IE'.2018.'R-RTFT-Det_F'.'MEUR2018' 24.3936
+'IE'.2018.'R-RTFT-Det_G'.'MEUR2018' 24.3936
+/;
+
+PARAMETER
+
+NCAP_START ' '/
+'IE'.'R-RTFT-Apt_B3' 2020
+'IE'.'R-RTFT-Apt_C' 2020
+'IE'.'R-RTFT-Apt_D' 2020
+'IE'.'R-RTFT-Apt_E' 2020
+'IE'.'R-RTFT-Apt_F' 2020
+'IE'.'R-RTFT-Apt_G' 2020
+'IE'.'R-RTFT-Att_B3' 2020
+'IE'.'R-RTFT-Att_C' 2020
+'IE'.'R-RTFT-Att_D' 2020
+'IE'.'R-RTFT-Att_E' 2020
+'IE'.'R-RTFT-Att_F' 2020
+'IE'.'R-RTFT-Att_G' 2020
+'IE'.'R-RTFT-Det_B3' 2020
+'IE'.'R-RTFT-Det_C' 2020
+'IE'.'R-RTFT-Det_D' 2020
+'IE'.'R-RTFT-Det_E' 2020
+'IE'.'R-RTFT-Det_F' 2020
+'IE'.'R-RTFT-Det_G' 2020
+/;
+
+PARAMETER
+
+NCAP_TLIFE ' '/
+'IE'.2018.'R-RTFT-Apt_B3' 50
+'IE'.2018.'R-RTFT-Apt_C' 50
+'IE'.2018.'R-RTFT-Apt_D' 50
+'IE'.2018.'R-RTFT-Apt_E' 50
+'IE'.2018.'R-RTFT-Apt_F' 50
+'IE'.2018.'R-RTFT-Apt_G' 50
+'IE'.2018.'R-RTFT-Att_B3' 50
+'IE'.2018.'R-RTFT-Att_C' 50
+'IE'.2018.'R-RTFT-Att_D' 50
+'IE'.2018.'R-RTFT-Att_E' 50
+'IE'.2018.'R-RTFT-Att_F' 50
+'IE'.2018.'R-RTFT-Att_G' 50
+'IE'.2018.'R-RTFT-Det_B3' 50
+'IE'.2018.'R-RTFT-Det_C' 50
+'IE'.2018.'R-RTFT-Det_D' 50
+'IE'.2018.'R-RTFT-Det_E' 50
+'IE'.2018.'R-RTFT-Det_F' 50
+'IE'.2018.'R-RTFT-Det_G' 50
+/;
+
+PARAMETER
+
+PRC_CAPACT ' '/
+'IE'.'R-RTFT-Apt_B3' 0.000573483452118092
+'IE'.'R-RTFT-Apt_C' 0.000669242010548159
+'IE'.'R-RTFT-Apt_D' 0.00479485631850537
+'IE'.'R-RTFT-Apt_E' 0.00928084186167517
+'IE'.'R-RTFT-Apt_F' 0.0146286628832945
+'IE'.'R-RTFT-Apt_G' 0.0217170434758936
+'IE'.'R-RTFT-Att_B3' 0.000758216992325059
+'IE'.'R-RTFT-Att_C' 0.000884821806978503
+'IE'.'R-RTFT-Att_D' 0.0051655487686243
+'IE'.'R-RTFT-Att_E' 0.00939296685221733
+'IE'.'R-RTFT-Att_F' 0.0147274343912056
+'IE'.'R-RTFT-Att_G' 0.0212903358513985
+'IE'.'R-RTFT-Det_B3' 0.000871244488960187
+'IE'.'R-RTFT-Det_C' 0.00101672229829336
+'IE'.'R-RTFT-Det_D' 0.00526606592962414
+'IE'.'R-RTFT-Det_E' 0.00943561529347199
+'IE'.'R-RTFT-Det_F' 0.0146286628832945
+'IE'.'R-RTFT-Det_G' 0.0217170434758936
+/;
+
+

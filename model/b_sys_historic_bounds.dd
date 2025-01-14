@@ -1,7 +1,7 @@
 $ONEMPTY
 $ONEPS
 $ONWARNING
-$SET RUN_NAME 'NO_MITIGATION'
+$SET RUN_NAME 'ALL_SCEN'
 $SET SCENARIO_NAME 'b_sys_historic_bounds'
 
 
@@ -464,5 +464,3 @@ UC_RHSTS ' '/
 'UC_Historic_TRAKER-cons_Multi'.2020.ANNUAL.UP 16.7
 'UC_Historic_TRAKER-cons_Multi'.2021.ANNUAL.UP 18.7
 /;
-
-

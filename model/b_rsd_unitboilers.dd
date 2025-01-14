@@ -1,7 +1,7 @@
 $ONEMPTY
 $ONEPS
 $ONWARNING
-$SET RUN_NAME 'NO_MITIGATION'
+$SET RUN_NAME 'ALL_SCEN'
 $SET SCENARIO_NAME 'b_rsd_unitboilers'
 
 
@@ -430,5 +430,3 @@ UC_RHSRT ' '/
 'IE'.'UC_RSD_UnitBoiler_SH-Det*'.0.FX 5
 'IE'.'UC_RSD_UnitBoiler_SH-Det*'.2019.FX 0
 /;
-
-

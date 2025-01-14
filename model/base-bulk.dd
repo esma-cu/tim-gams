@@ -766,6 +766,7 @@ SET COM_GRP
 'I-DMD-NEM-E0_NRGI'
 'I-DMD-OMA-E0_NRGI'
 'I-DMD-ONM-E0_NRGI'
+'I-DMD-ONM-N1_NRGI'
 'I-DMD-PX4-E0_NRGI'
 'I-DMD-RAP-E0_NRGI'
 'I-DMD-TAP-E0_NRGI'
@@ -8683,6 +8684,14 @@ SET UC_N
 'UC_BUS_L' 'BUS'
 'UC_BUS_M' 'BUS'
 'UC_BUS_S' 'BUS'
+'UC_CB_0_Mt_2051-2100_Multi' 'Carbon budget 0 Mt 2051-2100 - Multi'
+'UC_CB_0_Mt_2051-2100_Single' 'Carbon budget 0 Mt 2051-2100 - Single'
+'UC_CB_109_Mt_2031-2050_Multi' 'Carbon budget 109 Mt 2031-2050 - Multi'
+'UC_CB_109_Mt_2031-2050_Single' 'Carbon budget 109 Mt 2031-2050 - Single'
+'UC_CB_112_Mt_2026-2030_Multi' 'Carbon budget 112 Mt 2026-2030 - Multi'
+'UC_CB_112_Mt_2026-2030_Single' 'Carbon budget 112 Mt 2026-2030 - Single'
+'UC_CB_164_Mt_2021-2025_Multi' 'Carbon budget 164 Mt 2021-2025 - Multi'
+'UC_CB_164_Mt_2021-2025_Single' 'Carbon budget 164 Mt 2021-2025 - Single'
 'UC_Emissions_CO2_2020_Multi' 'CO2 Emissions in 2020 - Multi'
 'UC_Emissions_CO2_2020_Single' 'CO2 Emissions in 2020 - Single'
 'UC_Good_GTR' 'GTR'
@@ -8706,6 +8715,49 @@ SET UC_N
 'UC_MaxNetELCCImport' 'Maximum net electricity import'
 'UC_Max_PV_Cap' 'Maximum solar PV capacity'
 'UC_Max_SNSP' 'System Non-Synchronous Penetration (SNSP) limit'
+'UC_Mitigation_ICAF_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in ICAF'
+'UC_Mitigation_ICAF_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in ICAF'
+'UC_Mitigation_ICAF_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in ICAF'
+'UC_Mitigation_ICON_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in ICON'
+'UC_Mitigation_ICON_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in ICON'
+'UC_Mitigation_ICON_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in ICON'
+'UC_Mitigation_IEOE_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in IEOE'
+'UC_Mitigation_IEOE_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in IEOE'
+'UC_Mitigation_IEOE_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in IEOE'
+'UC_Mitigation_IFAB_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in IFAB'
+'UC_Mitigation_IFAB_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in IFAB'
+'UC_Mitigation_IFAB_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in IFAB'
+'UC_Mitigation_IMAE_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in IMAE'
+'UC_Mitigation_IMAE_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in IMAE'
+'UC_Mitigation_IMAE_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in IMAE'
+'UC_Mitigation_IMAP_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in IMAP'
+'UC_Mitigation_IMAP_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in IMAP'
+'UC_Mitigation_IMAP_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in IMAP'
+'UC_Mitigation_INEM_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in INEM'
+'UC_Mitigation_INEM_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in INEM'
+'UC_Mitigation_INEM_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in INEM'
+'UC_Mitigation_IOMA_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in IOMA'
+'UC_Mitigation_IOMA_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in IOMA'
+'UC_Mitigation_IOMA_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in IOMA'
+'UC_Mitigation_IONM_MaxShare_COK-COA-BIO-H2' 'Maximum share of Solids, Biomass and H2 in IONM'
+'UC_Mitigation_IONM_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in IONM'
+'UC_Mitigation_IONM_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in IONM'
+'UC_Mitigation_IONM_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in IONM'
+'UC_Mitigation_IPX4_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in IPX4'
+'UC_Mitigation_IPX4_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in IPX4'
+'UC_Mitigation_IPX4_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in IPX4'
+'UC_Mitigation_IRAP_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in IRAP'
+'UC_Mitigation_IRAP_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in IRAP'
+'UC_Mitigation_IRAP_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in IRAP'
+'UC_Mitigation_ITAP_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in ITAP'
+'UC_Mitigation_ITAP_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in ITAP'
+'UC_Mitigation_ITAP_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in ITAP'
+'UC_Mitigation_ITEM_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in ITEM'
+'UC_Mitigation_ITEM_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in ITEM'
+'UC_Mitigation_ITEM_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in ITEM'
+'UC_Mitigation_IWAP_MaxShare_DST-BDS' 'Maximum share of Diesel and Biodiesel in IWAP'
+'UC_Mitigation_IWAP_MaxShare_GAS-BGS' 'Maximum share of Gas and Biogas in IWAP'
+'UC_Mitigation_IWAP_MaxShare_KER-BKE' 'Maximum share of kerosene and Biokerosene in IWAP'
 'UC_PWR_MaxGrowth_CCS' 'PWR maximum growth rate of CCS'
 'UC_PWR_MaxGrowth_CSP' 'PWR maximum growth rate of CSP'
 'UC_PWR_MaxGrowth_H2GT' 'PWR maximum growth rate of H2GT'
@@ -8758,6 +8810,26 @@ SET UC_N
 'UC_RSD_UnitBoiler_SH-Apt*' 'Number of boilers providing space heat equals number of dwellings in RSD Apt*'
 'UC_RSD_UnitBoiler_SH-Att*' 'Number of boilers providing space heat equals number of dwellings in RSD Att*'
 'UC_RSD_UnitBoiler_SH-Det*' 'Number of boilers providing space heat equals number of dwellings in RSD Det*'
+'UC_SCB_IND_2021-2025_Multi' 'IND Carbon Budget-2021-2025- Multi'
+'UC_SCB_IND_2021-2025_Single' 'IND Carbon Budget-2021-2025- Single'
+'UC_SCB_IND_2026-2030_Multi' 'IND Carbon Budget-2026-2030- Multi'
+'UC_SCB_IND_2026-2030_Single' 'IND Carbon Budget-2026-2030- Single'
+'UC_SCB_PWR_2021-2025_Multi' 'PWR Carbon Budget-2021-2025- Multi'
+'UC_SCB_PWR_2021-2025_Single' 'PWR Carbon Budget-2021-2025- Single'
+'UC_SCB_PWR_2026-2030_Multi' 'PWR Carbon Budget-2026-2030- Multi'
+'UC_SCB_PWR_2026-2030_Single' 'PWR Carbon Budget-2026-2030- Single'
+'UC_SCB_RSD_2021-2025_Multi' 'RSD Carbon Budget-2021-2025- Multi'
+'UC_SCB_RSD_2021-2025_Single' 'RSD Carbon Budget-2021-2025- Single'
+'UC_SCB_RSD_2026-2030_Multi' 'RSD Carbon Budget-2026-2030- Multi'
+'UC_SCB_RSD_2026-2030_Single' 'RSD Carbon Budget-2026-2030- Single'
+'UC_SCB_SRV_2021-2025_Multi' 'SRV Carbon Budget-2021-2025- Multi'
+'UC_SCB_SRV_2021-2025_Single' 'SRV Carbon Budget-2021-2025- Single'
+'UC_SCB_SRV_2026-2030_Multi' 'SRV Carbon Budget-2026-2030- Multi'
+'UC_SCB_SRV_2026-2030_Single' 'SRV Carbon Budget-2026-2030- Single'
+'UC_SCB_TRA_2021-2025_Multi' 'TRA Carbon Budget-2021-2025- Multi'
+'UC_SCB_TRA_2021-2025_Single' 'TRA Carbon Budget-2021-2025- Single'
+'UC_SCB_TRA_2026-2030_Multi' 'TRA Carbon Budget-2026-2030- Multi'
+'UC_SCB_TRA_2026-2030_Single' 'TRA Carbon Budget-2026-2030- Single'
 'UC_SRV_MaxGrowth_AmbientHeat' 'SRV maximum growth rate of AmbientHeat'
 'UC_SRV_MaxGrowth_Biogas' 'SRV maximum growth rate of Biogas'
 'UC_SRV_MaxGrowth_Biomass' 'SRV maximum growth rate of Biomass'
@@ -8770,7 +8842,11 @@ SET UC_N
 'UC_Taxis_M' 'Taxis'
 'UC_Taxis_S' 'Taxis'
 'UC_Train_L' 'Train'
+'UC_Train_M' 'Train'
+'UC_WAM_CO2_Emissions_Multi' 'WAM CO2 Emissions Bound - Multi'
+'UC_WAM_CO2_Emissions_Single' 'WAM CO2 Emissions Bound - Single'
 'UC_ZeroImpBIOWfrom2025' 'Zero import of wood pellets and chips from 2025'
+'UC_cycling_M' 'Bike'
 'UC_cycling_S' 'Bike'
 'UC_motorcycle_M' '2-wheelers'
 'UC_motorcycle_S' '2-wheelers'
@@ -9394,20 +9470,6 @@ COM_PROJ ' '/
 'IE'.2018.'ASHE' 5.73177186697291
 'IE'.2018.'ASUG' 0
 'IE'.2018.'AWHE' 0.935123672233577
-'IE'.2018.'ICAF' 9.5100483128063
-'IE'.2018.'ICON' 1.9571195447376
-'IE'.2018.'IEOE' 4.65085642477431
-'IE'.2018.'IFAB' 20.1128233846323
-'IE'.2018.'IMAE' 1.47294683306237
-'IE'.2018.'IMAP' 20.3153817696899
-'IE'.2018.'INEM' 1.89835406032709
-'IE'.2018.'IOMA' 4.69842875248501
-'IE'.2018.'IONM' 19.4824768045088
-'IE'.2018.'IPX4' 1.09140526535876
-'IE'.2018.'IRAP' 1.95562495265052
-'IE'.2018.'ITAP' 0.427697848991883
-'IE'.2018.'ITEM' 0.1947788154134
-'IE'.2018.'IWAP' 6.92952871563343
 'IE'.2018.'RSDCD' 1.05169316530962
 'IE'.2018.'RSDCK' 2.00068975355001
 'IE'.2018.'RSDCW' 0.788767999867575
@@ -9415,22 +9477,6 @@ COM_PROJ ' '/
 'IE'.2018.'RSDOA' 0
 'IE'.2018.'RSDOE' 9.2169270601309
 'IE'.2018.'RSDRF' 1.1544546193488
-'IE'.2018.'RSD_Apt' 211.819885
-'IE'.2018.'RSD_Att' 788.064721
-'IE'.2018.'RSD_Det' 735.406729
-'IE'.2018.'SRV-CS' 28.901664567934
-'IE'.2018.'SRV-PU' 58.1515419619876
-'IE'.2018.'SRVDCE-CS' 5.629176
-'IE'.2018.'SRVPLIG-PU' 0.48
-'IE'.2018.'TAVIDOM' 0.233493200286579
-'IE'.2018.'TAVIINT' 45.9683637522608
-'IE'.2018.'TNAV' 3.51329980872771
-'IE'.2018.'TOTH' 20.8314549206823
-'IE'.2018.'TRAF' 11.625551
-'IE'.2018.'TRAPL' 27.1315775429736
-'IE'.2018.'TRAPM' 31.276118540281
-'IE'.2018.'TRAPS' 14.5565610923972
-'IE'.2018.'TTURS' 7.71057482597501
 /;
 
 PARAMETER

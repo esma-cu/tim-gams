@@ -1,7 +1,7 @@
 $ONEMPTY
 $ONEPS
 $ONWARNING
-$SET RUN_NAME 'NO_MITIGATION'
+$SET RUN_NAME 'ALL_SCEN'
 $SET SCENARIO_NAME 'b_sys_additional_assumptions'
 
 
@@ -335,5 +335,3 @@ UC_RHSRTS ' '/
 'IE'.'UC_ZeroImpBIOWfrom2025'.0.ANNUAL.UP 5
 'IE'.'UC_ZeroImpBIOWfrom2025'.2025.ANNUAL.UP 0
 /;
-
-
